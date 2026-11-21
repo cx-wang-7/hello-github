@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# ---- Java ----
+*.class
+target/
+out/
+*.jar
+*.war
+!gradle-wrapper.jar
+.gradle/
+.idea/
+*.iml
+
+# ---- IDE ----
+.vscode/
+*.swp
+
+# ---- 系统 ----
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 大文件与压缩包 ----
+*.zip
+*.7z
+*.rar
+*.iso
+*.exe
+*.msi
+
+# ---- 密钥与凭据 ----
+.env
+.env.local
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.pfx
+secrets.*
